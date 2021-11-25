@@ -357,6 +357,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         if(Build.VERSION.SDK_INT > Build.VERSION_CODES.JELLY_BEAN_MR2){
             Log.d(TAG, "Trying to pair with " + deviceName);
             mBTDevices.get(i).createBond();
+            mBluetoothConnection = new BluetoothConnectionService(MainActivity.this);
         }
     }
 }
