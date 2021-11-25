@@ -358,6 +358,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             Log.d(TAG, "Trying to pair with " + deviceName);
             mBTDevices.get(i).createBond();
             mBluetoothConnection = new BluetoothConnectionService(MainActivity.this);
+            
         }
     }
 }
