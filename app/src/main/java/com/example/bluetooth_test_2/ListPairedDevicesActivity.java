@@ -15,7 +15,6 @@ public class ListPairedDevicesActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
 
        // System.out.println("HERE");
@@ -74,7 +73,6 @@ public class ListPairedDevicesActivity extends ListActivity {
 
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
-        // TODO Auto-generated method stub
         super.onListItemClick(l, v, position, id);
 
         Intent intent = new Intent();
